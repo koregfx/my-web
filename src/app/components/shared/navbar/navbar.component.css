@@ -1,0 +1,35 @@
+.navbar_links{
+    width: 35vw;
+    display: flex;
+    align-content: left;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar_logo{
+    max-width: 10rem;
+    flex: 1;
+}
+
+.navbar_links_container{
+    min-height: 40vh;
+    flex: 2;
+    margin-left: 2rem;
+}
+
+.active_link{
+    color: #DCA30C;
+    border-bottom: solid;
+    padding-bottom: 1rem;
+}
+.space-bottonm{
+    flex: 1;
+}
